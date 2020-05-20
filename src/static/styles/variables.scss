@@ -1,0 +1,33 @@
+@import './colors';
+
+/***************
+  Spacing
+***************/
+
+$page-width: 8.5in;
+$main-width: 5.75in;
+$sidebar-width: calc(#{$page-width} - #{$main-width});
+
+
+$page-height: 11in;
+$footer-height: calc(1in - 4px);
+$content-height: calc(#{$page-height} - #{$footer-height});
+
+
+/***************
+  Padding
+***************/
+
+$sidebar-horizontal-padding: 0.2in;
+$main-content-padding: 0.15in;
+
+
+/***************
+  Coloring
+***************/
+
+$sidebar-bkg: $waikawa-gray;
+$main-color: $danube;
+$alternate-color: $hoki;
+$footer-border: $periwinkle-grey;
+

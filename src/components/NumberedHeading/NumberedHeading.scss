@@ -1,0 +1,104 @@
+@import '../../static/styles/variables';
+@import '../../static/styles/colors';
+
+.numbered-headings {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 5px;
+
+  ul {
+    list-style : none;
+  }
+  li{
+    display : flex;
+    flex-flow: row;
+    min-height : 10px;
+    position : relative;
+  }
+
+  span.number {
+    font: 20px 'Gothic A1', sans-serif;
+    font-weight: 300;
+
+    width: 28px;
+    height: 28px;
+
+    background: $alternate-color;
+    text-align: center;
+    border-radius: 50%;    
+    
+    line-height: 28px;
+    box-sizing: content-box;   
+
+    color: #fff;
+    margin-bottom: 30px;
+    z-index: 2;
+  }
+
+  span.bubbleFont {
+    font-size: 12px;
+  }
+
+  span.line {
+    position : absolute;
+    height : 100%;
+    border : solid $footer-border 0.5px;
+    left : 15px;
+  }
+  li:last-child span.line{
+    display : none;   
+  }
+
+
+  .title-block {
+    margin-left: 6px;
+    margin-bottom: 6px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .title {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+    .title:after {
+      content: "\2022";
+      color: $alternate-color;
+      margin: 0px 8px;
+    }
+
+    .date {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 300;
+      color: #999;
+    }
+
+
+    .sub-item {
+      font-family: 'Roboto', sans-serif;
+
+      .sub-title {
+        font-size: 11px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1px;
+      
+        .extra-info {
+          text-transform: uppercase;
+          width: 110px;
+          color: #999;
+        }
+      }
+      .sub-text {
+        color: #999;
+        font-size: 9px;
+      }
+    }
+  }
+}

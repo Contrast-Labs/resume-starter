@@ -1,0 +1,28 @@
+[
+    {
+      "title":"Masters Degree",
+      "date":"Jan 2009 - Dec 2011",
+      "subItems":[
+        {
+          "title":"University of Excellence",
+          "extraInfo":"GPA 4.00/4.00",
+          "text":[
+            "Masters Degree in Cyber Security with Specialized Focus in Resume Building."
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Bachelors Degree",
+      "date":"Aug 2004 - May 2008",
+      "subItems":[
+        {
+          "title":"University of Awesome",
+          "extraInfo":"GPA 4.00/4.00",
+          "text":[
+            "Bachelors Degree in Science with Specialized Focus in Frogs."
+          ]
+        }
+      ]
+    }
+  ]

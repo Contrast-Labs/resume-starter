@@ -1,0 +1,41 @@
+[  
+    {  
+      "title":"Contrast Security",
+      "date":"May 2019 - Present",
+      "subItems":[  
+        {  
+          "title":"Application Security Researcher",
+          "extraInfo":"",
+          "text":[  
+            ""
+          ]
+        }
+      ]
+    },  
+    {  
+      "title":"Karate Academy",
+      "date":"Jul 2017 - May 2019",
+      "subItems":[  
+        {  
+          "title":"Application Security Engineer",
+          "extraInfo":"",
+          "text":[  
+            "Responsible. Trustworthy. Buzzword."
+          ]
+        }
+      ]
+    },
+    {  
+      "title":"Ministry of Defense",
+      "date":"May 2016 - Jul 2017",
+      "subItems":[  
+        {  
+          "title":"Engineer",
+          "extraInfo":"",
+          "text":[  
+            "Accio Broom"
+          ]
+        }
+      ]
+    }
+  ]
