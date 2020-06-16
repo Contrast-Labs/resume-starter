@@ -1,3 +1,45 @@
+# Creating Your Own Resume from Code
+
+This resume is built using ReactJS's create-react-app.  Tired of fighting Microsoft Word?  This application will help jump-start your career by demonstrating your engineering skills right away.  Plus you can use components to make your resume consistent througout!
+
+## Printing
+
+Printing websites is often difficult and doesn't fit a page perfectly.  However, this resume is a perfect 8.5" x 11" (US letter) and prints without issue.  If you're having issues, remember to turn on background graphics and remember to do a full bleed (no margins).
+
+
+## Starting this project
+
+```
+git clone https://github.com/Labs-Weekly/resume-starter.git
+cd resume-starter
+npm install
+npm run start
+```
+
+## Potential Other Ideas
+
+* Deploy using Docker
+* Self-host
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Create React App Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
